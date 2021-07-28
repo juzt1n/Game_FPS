@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "node /Controller/app.js"
+        "start": "node ./Controller/app.js"
     },
     "dependencies": {
         "cors": "^2.8.5",
