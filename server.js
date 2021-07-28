@@ -12,7 +12,7 @@ const app = require('./Controller/app');
 //configurations
 //-------------------------
 const hostname = 'localhost';
-const port = 3000;
+const port = 5432;
 
 
 
