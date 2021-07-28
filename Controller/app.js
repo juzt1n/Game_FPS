@@ -127,4 +127,4 @@ app.listen(port, function () {
     console.log('App is listening to port ' + port);
 });
 
-//postgres://bzrwsdluzcppgl:c1f5702744c7cda0e957ae62c042b9a8b4bbbf34d64b64a261bc2a83657d3112@ec2-52-45-183-77.compute-1.amazonaws.com:5432/dccqmku3jnbbf5
+//postgres://iyjbpuebqgycbs:4cae2839231ad3d080e0a6b8ad82220c36d4c8db78592cc492a5c38564e6bec0@ec2-23-20-124-77.compute-1.amazonaws.com:5432/d721sitcqrqddv
