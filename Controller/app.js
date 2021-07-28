@@ -42,6 +42,10 @@ app.use(cors());
 //------------------------------------------------------------
 // End points
 //------------------------------------------------------------
+app.get('/', printDebugInfo, function (req, res) {
+    res.status
+    (200).send("send success!!")
+})
 
 app.get('/', function (req, res, next) {
     return res.json({
