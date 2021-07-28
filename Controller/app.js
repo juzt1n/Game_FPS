@@ -49,7 +49,7 @@ app.get('/', printDebugInfo, function (req, res) {
 
 app.get('/', function (req, res, next) {
     return res.json({
-        Hello: "Game_FPS",
+        Hello: "Welcome to Game_FPS",
         APIs: {
             'Login': {
                 description: 'Logs user in',
