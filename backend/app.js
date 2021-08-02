@@ -79,8 +79,8 @@ app.post('/init', function (req, res, next) {
 });
 
 app.post('/register', function (req, res, next) {
-    const email = req.body.email;
-    const password = req.body.password;
+    const email = req.query.email;
+    const password = req.query.password;
 
     return game.createUser(email, password)
         .then(function () {
@@ -90,8 +90,8 @@ app.post('/register', function (req, res, next) {
 });
 
 app.post('/login', function (req, res, next) {
-    const email = req.body.email;
-    const password = req.body.password;
+    const email = req.query.email;
+    const password = req.query.password;
     console.log(game);
     return game.getUser(email, password)
         .then(function () {
