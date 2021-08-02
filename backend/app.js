@@ -111,7 +111,7 @@ app.post('/login', function (req, res, next) {
                 "email":email,
                 "password":password
             };
-            res.status(200).send(message)
+            // res.status(200).send(message)
             console.log(message);
             
         })
