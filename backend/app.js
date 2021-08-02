@@ -84,6 +84,8 @@ app.post('/register', function (req, res, next) {
 
     return game.createUser(email, password)
         .then(function () {
+            console.log(email);
+            console.log(password);
             return res.json({ email: email });
         })
         .catch(next);
@@ -96,6 +98,8 @@ app.post('/login', function (req, res, next) {
     return game.getUser(email, password)
         .then(function () {
             console.log("hi")
+            console.log(email);
+            console.log(password);
             return res.json({
                 email: email,
                 password: password
